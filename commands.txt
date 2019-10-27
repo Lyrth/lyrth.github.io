@@ -1,0 +1,107 @@
+-units 2 2 1 1 0.0 n
+-dwgunits 3 2 2 y y y y
+(command)
+insunits 4
+zoom e
+(command)
+-layer n BORDER
+s BORDER
+l Continuous
+BORDER
+lw 0.6 BORDER
+
+rec 0,0 d 420 297 0
+select 0,0
+
+offset 15 1,1 e
+l 15,15 405,15
+
+select 15,15
+
+m d @0,25
+l 15,15 @0,25
+
+select 15,15
+
+m d @25,0
+l 405,15 @0,25
+
+select 405,15
+
+m d @-25,0
+select 40,15
+
+o 340/3 @1,1 460/3,15 @1,1
+
+select 380,15
+
+o 25 @-1,-1
+
+l 367.5,33.75 367.5,15
+
+l 460/3,33.75 405,33.75
+
+l 40,27.50 800/3,27.50
+
+l 40,21.25 800/3,21.25
+
+l 355,27.50 380,27.50
+
+l 355,21.25 380,21.25
+
+c r 392.5,24.375 r 8
+l 384.5,24.375 400.5,24.375
+
+l 392.5,24.372 392.5,32.375
+
+l 185/3,31.4 395/3,31.4
+
+textsize 3.5
+-mtext 290/3,32.9 j bc w 0 JUAN DELA CRUZ
+
+textsize 2.0
+-mtext 290/3,29.45 j mc w 0 BS IN ELECTRONICS ENGINEERING
+
+-mtext 41.5,24.375 j ml w 0 STUDENT NUMBER:  201812345
+
+-mtext 41.5,18.125 j ml w 0 YEAR AND SECTION:  2ND YEAR, T21
+
+-mtext 589/6,24.375 j ml w 0 DATE PERFORMED:  10/22/19
+
+-mtext 589/6,18.125 j ml w 0 DATE SUBMITTED:  10/29/19
+
+textsize 2.5
+-mtext 929/6,36.875 j ml w 0 COE0025L - COMPUTER AIDED DRAFTING
+
+-mtext 929/6,30.625 j ml w 0 PLATE NUMBER 4
+
+-mtext 929/6,24.375 j ml w 0 TITLE: PREPARATION OF ENGINEERING DRAWINGS
+
+-mtext 929/6,18.875 j ml w 0 SUBMITTED TO: ENGR. VILLAMOR D. ABAD, JR.
+
+-mtext 1609/6,36.875 j ml w 0 SHEET CONTENTS:
+
+-mtext 356.5,36.875 j ml w 0 GRADE
+
+-mtext 356.5,30.675 j ml w 0 C:
+
+-mtext 356.5,24.375 j ml w 0 D:
+
+-mtext 356.5,18.875 j ml w 0 L:
+
+-mtext 381.5,36.875 j ml w 0 SHEET NO.:
+
+-mtext 280,27.5 j ml w 0 FLOOR PLAN
+
+textsize 3.5
+-mtext 391,28.3735 j mr w 0 A
+
+-mtext 394,28.3735 j ml w 0 1
+
+-mtext 392.5,22.875 j tc w 0 1
+
+-vports 15,282 405,40
+ai_selall
+m d @-0.79375,-0.79375
+(command)
+(command)
