@@ -59,10 +59,14 @@ l 392.5,24.372 392.5,32.375
 
 l 185/3,31.4 395/3,31.4
 
-textsize 3.5
+-style standard
+arial
+3.5 1 0 n n
 -mtext 290/3,32.9 j bc w 0 JUAN DELA CRUZ
 
-textsize 2.0
+-style standard
+arial
+2.0 1 0 n n
 -mtext 290/3,29.45 j mc w 0 BS IN ELECTRONICS ENGINEERING
 
 -mtext 41.5,24.375 j ml w 0 STUDENT NUMBER:  201812345
@@ -73,7 +77,9 @@ textsize 2.0
 
 -mtext 589/6,18.125 j ml w 0 DATE SUBMITTED:  10/29/19
 
-textsize 2.5
+-style standard
+arial
+2.5 1 0 n n
 -mtext 929/6,36.875 j ml w 0 COE0025L - COMPUTER AIDED DRAFTING
 
 -mtext 929/6,30.625 j ml w 0 PLATE NUMBER 4
